@@ -1,0 +1,8 @@
+Explanation:
+Extract Text: Reads text from PDF files in the train folder.
+Preprocess Text: Converts text to lowercase and removes special characters.
+TF-IDF Vectorization: Converts the text data into numerical form.
+Train-Test Split: Divides data into training and testing sets.
+Model Training: Trains an SVM model with a linear kernel.
+Evaluation: Calculates the Mean Squared Error to assess the model's performance.
+Save Artifacts: Saves the vectorizer and model as .pkl files.

@@ -1,0 +1,41 @@
+Step 1: Create a New Project in Google Cloud
+Go to the Google Cloud Console:
+Visit Google Cloud Console.
+
+Create a New Project:
+
+On the top left of the page, click the Project dropdown.
+Click New Project.
+Enter a Project Name and select a Billing Account (if required).
+Click Create.
+Step 2: Enable the Gmail API
+Navigate to the APIs & Services Dashboard:
+
+In the Google Cloud Console, go to the Navigation Menu > APIs & Services > Library.
+Enable the Gmail API:
+
+In the search bar, type Gmail API.
+Click on Gmail API in the search results.
+Click Enable to enable the Gmail API for your project.
+Step 3: Create OAuth 2.0 Credentials for Web Application
+Go to Credentials:
+
+In the APIs & Services section of the Google Cloud Console, click on Credentials.
+Create OAuth 2.0 Client ID:
+
+Click Create Credentials and select OAuth 2.0 Client IDs.
+If prompted, set up the OAuth consent screen with necessary information (like App Name, Email, etc.).
+For Scopes, you can leave the default scopes or add specific ones like Gmail scopes.
+Test users: Add your email for testing purposes if required.
+Configure OAuth 2.0 Client ID:
+
+Application Type: Select Web application.
+
+Name: Enter a name for your OAuth credentials (e.g., Placement Portal OAuth).
+
+Authorized JavaScript Origins:
+Add your local development URL, e.g., http://localhost:8080.
+
+Authorized Redirect URIs:
+
+Add the redirect URI http://localhost:8080/ to match the one in your code.
