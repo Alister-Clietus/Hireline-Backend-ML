@@ -1,5 +1,6 @@
 ADDITIONAL_RESPONSES = {
     "how are you": "I'm just a chatbot, but thanks for asking!",
+    "Software Developer": "A software developer is a professional who creates software applications or systems. They write code, debug, and maintain software.",
     "tell me a joke": "Why don't scientists trust atoms? Because they make up everything!",
     "who created you": "I was created by a team of developers, mostly Henry",
     "bye": "Goodbye! Feel free to come back if you have more questions.",
@@ -59,5 +60,7 @@ ADDITIONAL_RESPONSES = {
     "tell me a gardening tip": "Water your plants in the morning to prevent fungal growth and conserve water.",
     "what's the currency of Canada": "The currency of Canada is the Canadian dollar (CAD).",
     "how to network with professionals": "Attend webinars, career fairs, and tech meetups. Engage with professionals on LinkedIn.",
-    
+    "CyberSecurity": "Cyber security is the practice of protecting systems, networks, and programs from digital attacks.",
+    "Types of Cyber Security":"There are several types of cyber security, including network security, application security, information security, operational security, and disaster recovery.",
+    "Youtube videos for cyber security":"There are many YouTube channels dedicated to cyber security, such as 'The Cyber Mentor', 'NetworkChuck', and 'Professor Messer'.",
 }
